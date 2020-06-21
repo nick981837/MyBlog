@@ -31,9 +31,15 @@ p{
 
 img{
 	width:300px;
-	height:250px;
+	height:200px;
 	transition: all 1s;
 }
+
+img-responsive{
+	padding-left: 50px;
+}
+
+
 
 
 img:hover{
@@ -42,4 +48,8 @@ img:hover{
  
 h3{
 	font-family: 'Piedra', cursive;
+}
+
+li{
+	font-size: 20px;
 }

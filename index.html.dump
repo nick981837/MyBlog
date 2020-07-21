@@ -80,20 +80,20 @@
             <h2>Projects</h2>
             <div class="row">
               <div class="col-md-4">
-                <a href=" https://nick981837.github.io/Recycling-Tracker/"><img src="./assets/images/recycle.jpg"></a>
-                <a href=" https://nick981837.github.io/Recycling-Tracker/"><h3 class="h5">Recycling Tracker</h3>
+                <a href=" https://smart-brain981837.herokuapp.com/"><img src="./assets/images/facerecognition.jpg"></a>
+                <a href=" https://smart-brain981837.herokuapp.com/"><h3 class="h5">Face Recognition</h3>
                 </a>
-                <p>June 2020</p>
+                <p>July 2020</p>
+              </div>
+              <div class="col-md-4">
+                <a href="https://robofriends981837.herokuapp.com/"><img src="./assets/images/robot.jpg"  alt=""></a>
+                <a href="https://robofriends981837.herokuapp.com/"><h3 class="h5">Robofriends</h3>
+                </a>
+                <p>July 2020</p>
               </div>
               <div class="col-md-4">
                 <a href="https://nick981837.github.io/background_generator/."><img src="./assets/images/background.jpg"></a>
                 <a href="https://nick981837.github.io/background_generator/."><h3 class="h5">Background Generator</h3>
-                </a>
-                <p>June 2020</p>
-              </div>
-              <div class="col-md-4">
-                <a href="https://nick981837.github.io/robofriends/"><img src="./assets/images/robot.jpg"  alt=""></a>
-                <a href="https://nick981837.github.io/robofriends/"><h3 class="h5">Robofriends</h3>
                 </a>
                 <p>June 2020</p>
               </div>

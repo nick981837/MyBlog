@@ -11,10 +11,8 @@
 
   <!-- Disable tap highlight on IE -->
   <meta name="msapplication-tap-highlight" content="no">
-  
-  <link rel="cat_icon" href="./animals1.ico" type="image/x-icon" />
-  <link href=".assets/images/animals1.ico" rel="icon">
   <link href="https://fonts.googleapis.com/css2?family=Piedra&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <title>Nick's Blog</title>  
 
@@ -23,13 +21,13 @@
 <body class="" style="background-color:#000080">
 
 <!-- Add your content of header -->
-<div class="background-color-layer" style="background-image: url('assets/my photo.jpg')"
+<div class="background-color-layer" style="background-image: url('assets/images/building.jpg')"
 ></div>
 <main class="content-wrapper">
   <header class="white-text-container section-container">
     <div class="text-center">
-      <h1>I am Meng-Ku Chen</h1>
-      <p><div class='little_title'>Newcomer of Web Developer</p>
+      <h1 data-aos='fade-up'>I am Meng-Ku Chen</h1>
+      <p><div class='little_title' data-aos='fade-right' data-aos-delay='1000'>Newcomer of Web Developer</p>
       </div>
       <p>
         <a class="fa-icon fa-icon-2x" href="https://facebook.com/" title="">
@@ -63,10 +61,10 @@
           <div class="card-block">
             <h2>About me</h2>
             <div class="row">
-              <div class="col-md-4">
+              <div class="col-md-4" data-aos='fade-right' data-aos-delay='1200'>
                 <p><img src="./assets/images/my photo.jpg" class="img-responsive" alt=""></p>
               </div>
-              <div class="col-md-8">
+              <div class="col-md-8" data-aos='fade-right' data-aos-delay='1400'>
 
               <p>My dream is sustainable development while protecting the environment. This passion motivated me to pursue my Master's degree in Energy Science Technology & Policy at CMU. I am looking forward to serve as an Energy Analyst in renewable energy industries. </p>
 
@@ -79,21 +77,21 @@
           <div class="card-block">
             <h2>Projects</h2>
             <div class="row">
-              <div class="col-md-4">
+              <div class="col-md-4" data-aos='fade-in'>
                 <a href=" https://smart-brain981837.herokuapp.com/"><img src="./assets/images/facerecognition.jpg"></a>
-                <a href=" https://smart-brain981837.herokuapp.com/"><h3 class="h5">Face Recognition</h3>
+                <a href=" https://smart-brain981837.herokuapp.com/" style="text-decoration:none"><h3 class="h5">Face Recognition</h3>
                 </a>
                 <p>July 2020</p>
               </div>
-              <div class="col-md-4">
+              <div class="col-md-4" data-aos='fade-in' data-aos-delay='400'>
                 <a href="https://robofriends981837.herokuapp.com/"><img src="./assets/images/robot.jpg"  alt=""></a>
-                <a href="https://robofriends981837.herokuapp.com/"><h3 class="h5">Robofriends</h3>
+                <a href="https://robofriends981837.herokuapp.com/" style="text-decoration:none;"><h3 class="h5">Robofriends</h3>
                 </a>
                 <p>July 2020</p>
               </div>
-              <div class="col-md-4">
-                <a href="https://nick981837.github.io/background_generator/."><img src="./assets/images/background.jpg"></a>
-                <a href="https://nick981837.github.io/background_generator/."><h3 class="h5">Background Generator</h3>
+              <div class="col-md-4" data-aos='fade-in' data-aos-delay='600'>>
+                <a href="https://nick981837.github.io/background_generator/"><img src="./assets/images/background.jpg"></a>
+                <a href="https://nick981837.github.io/background_generator/." style="text-decoration:none"><h3 class="h5">Background Generator</h3>
                 </a>
                 <p>June 2020</p>
               </div>
@@ -104,12 +102,13 @@
         <div class="card">
           <div class="card-block">
             <h2>Work</h2>
-            <div class="work-experience">
+            <div class="work-experience" data-aos='fade in'>
              <small class="date">June 2019-September 2019</small>
               <h3 class="h5 date-title">Research Assistant -Lin Han Jia's Lab</h3>
               
 
-              <p>Investigated the effect of polyamines and industrial waste water on the growth of the diatom Chaetoceros muelleri under different temperatures for a project aiming to employ this diatom towards outdoor aquatic purification</p>
+              <li>Investigated the effect of polyamines and industrial waste water on the growth of the diatom Chaetoceros muelleri under different temperatures for a project aiming to employ this diatom towards outdoor aquatic purification</li><br>
+              <li>Employed conjugative transformation on the diatom Chaetoceros muelleri in solid medium to enhance its biofuel generation</li>
             </div>
 
             
@@ -120,7 +119,7 @@
         <div class="card">
           <div class="card-block">
             <h2>Education</h2>
-            <div class="row">
+            <div class="row" data-aos='fade in'>
               <div class="col-md-4">
                 <div class="education-experience">
                   <small class="date">2012-2015</small>
@@ -139,8 +138,8 @@
 
                <div class="col-md-4">
                 <div class="education-experience">
-                  <small class="date">2020-2022</small>
-                  <h3 class="h5 date-title">Energy Science, Technology & Policy</h3>
+                  <small class="date">2021-2023</small>
+                  <h3 class="h5 date-title">EST&P</h3>
                   <p>Carnegie Mellon University</p>
                 </div>
               </div>
@@ -152,7 +151,7 @@
         <div class="card">
           <div class="card-block">
             <h2>Language</h2>
-            <div class="row">
+            <div class="row" data-aos='fade in'>
               <div class="col-md-4">
                 <div class="language-experience">
                   <h3 class="h5">English  <small>Fluent</small></h3>
@@ -175,8 +174,7 @@
         <div class="card">
           <div class="card-block">
             <h2>Skills</h2>
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-            
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-aos='fade in'>
 
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
@@ -184,8 +182,7 @@
                 <img src="./assets/images/programming.jpg" style="float: left; padding-right: 100px; width:400px; height:200px" class="img-responsive" alt="...">
                 <div class="carousel-caption">
                   <h3 class="h5">Programming Language</h3>
-                  <p><ul class='main-nav'>
-                       <li>C++</li>
+                  <p>
                        <li>Python</li>
                        <li>SQL</li>
                        <li>HTML</li>
@@ -249,13 +246,13 @@
           <div class="card-block">
             <h2>Social Network</h2>
             <div class="row">
-              <div class="col-md-3">
+              <div class="col-md-3" data-aos='zoom-in' data-aos-delay='600'>
                 <p class="social-buttons"><a href="https://www.linkedin.com/in/meng-ku-chen-a46698196/" title=""><span class="social-round-icon fa-icon"><i class="fa fa-linkedin"></i></span>@Meng-Ku Chen</a></p>
               </div>
-              <div class="col-md-3">
+              <div class="col-md-3"data-aos='zoom-in' data-aos-delay='400'>
                 <p class="social-buttons"><a href="https://github.com/nick981837" title=""><span class="social-round-icon fa-icon"><i class="fa fa-github"></i></span>@Meng-Ku Chen</a></p>
               </div>
-               <div class="col-md-3">
+               <div class="col-md-3" data-aos='zoom-in'>
                 <p class="social-buttons"><a href="https://www.facebook.com/nick.chen.1297/" title=""><span class="social-round-icon fa-icon"><i class="fa fa-facebook"></i></span>@Meng-Ku Chen</a></p>
               </div>
             </div>
@@ -291,7 +288,7 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        <p><img src="./assets/images/mashup-icon.svg" alt=""></p>
+        
         
         <p>©All right reserved. Design <a href="http://www.mashup-template.com/" title="Create website with free html template">Mashup Template</a>/<a href="https://unsplash.com/" title="Beautiful Free Images">Unsplash</a></p>
         <p>
@@ -335,5 +332,15 @@
 </script>
 
 --><script type="text/javascript" src="./main.bc58148c.js"></script></body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+
+  delay: 200, // values from 0 to 3000, with step 50ms
+  duration: 1500, // values from 0 to 3000, with step 50ms
+  once: false, // whether animation should happen only once - while scrolling down
+  mirror: false, // whether elements should animate out 
+  });
+</script>
 
 </html>
